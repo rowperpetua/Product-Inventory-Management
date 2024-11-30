@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory Management</title>
+</head>
+<body>
+    <h1>Product Inventory Management</h1>
+    <div id="data-entry">
+
+        <input type="text" id="productId" placeholder="Product ID">
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="text" id="productDescription" placeholder="Product Description">
+        <input type="text" id="category" placeholder="Category"><br><br>
+        <input type="number" id="unitPrice" placeholder="Unit Price">
+        <input type="number" id="quantity" placeholder="Quantity">
+        <input type="date" id="dateAdded" placeholder="Date Added">
+        <input type="date" id="expiryDate" placeholder="Expiry Date"><br><br>
+        <button id="addButton">Add</button>
+        <button id="clearButton">Clear</button>
+        <button id="editButton">Edit</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <div id="raw-data">
+        <h3>Raw Data</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total Cost</th>
+                    <th>Date Added</th>
+                    <th>Expiry Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="productTable">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
